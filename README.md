@@ -145,16 +145,7 @@ $${\color{gray}(※ 아래는 프로젝트의 상세 내용 입니다.)}$$
     </div>
     
   3. 모델 별 성능 평가(앙상블):
-     
-    - Basic: 기존 모델 앙상블
-    - New: 위에서 정의된 전용면적 범위 컬럼을 기준으로 분할 학습 후의 모델 앙상블
-    * 모델별 RSME 결과로 아래 이미지는 로컬에서 얻은 결과(CV)
-<br>
-<div align="center">
-
-  ![image](https://github.com/user-attachments/assets/79de6c68-9335-4f7b-9a31-901f1044e5dc)
-
-</div>
+  
 
 <div align="center">
 
@@ -163,6 +154,15 @@ $${\color{gray}(※ 아래는 프로젝트의 상세 내용 입니다.)}$$
 | LGBM + CatBoost (Basic) | 20376.9040 |
 | LGBM(New) | 16714.4593 |
 | CatBoost(New) | 19479.3534 |
+
+</div>
+    
+    - Basic: 기존 모델 앙상블
+    - New: 위에서 정의된 전용면적 범위 컬럼을 기준으로 분할 학습 후의 모델 앙상블
+    - 모델별 RSME 결과로 아래 이미지는 로컬에서 얻은 결과(CV)
+  <div align="center">
+
+  ![image](https://github.com/user-attachments/assets/79de6c68-9335-4f7b-9a31-901f1044e5dc)
 
 </div>
 
